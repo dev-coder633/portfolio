@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Tyagi Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2f;
+            color: #eee;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: #6a11cb;
+            border-bottom: 2px solid #6a11cb;
+        }
+        .container {
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+            animation: fadeIn 1s ease-in;
+        }
+        .section {
+            margin-bottom: 50px;
+            background: #2a2a3b;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .section h2 {
+            text-align: center;
+            color: #6a11cb;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #444;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
+        }
+        footer a {
+            color: #6a11cb;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dev Tyagi's Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I am Dev Tyagi, a first-year student at kiet Group of Institutions. I have a keen interest in programming, designing, and creating 3D models.I’m an enthusiastic learner exploring web
+ development and programming. Currently diving deep into HTML, CSS, and C, with an eye
+ on building innovative projects in the future.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>C, C++</li>
+                <li>AutoCAD Inventor</li>
+                <li>3D Printing</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <ul>
+                <li>Personal Portfolio Website</li>
+                <li>3D Printed Models</li>
+                <li>Basic Calculator in C++</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:dev.2428cse241@kiet.edu">dev.2428cse241@kiet.edu</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dev Tyagi. All rights reserved. | Designed with ❤️</p>
+    </footer>
+</body>
+</html>
